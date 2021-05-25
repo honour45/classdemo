@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tou"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".deno_str"></activity>
+        <activity android:name=".ceshi" />
+        <activity android:name=".demo_frgment" />
+        <activity android:name=".demo_huican2" />
+        <activity android:name=".demo_huican" />
+        <activity android:name=".demo_intent2" />
+        <activity android:name=".demo_intent" />
+        <activity android:name=".twelve_xuanxiangka" />
+        <activity android:name=".list_demo2" />
+        <activity android:name=".list_demo" />
+        <activity android:name=".kong_jian2" />
+        <activity android:name=".button_dati" />
+        <activity android:name=".zhu_ce" />
+        <activity android:name=".kong_jian" />
+        <activity android:name=".button" />
+        <activity android:name=".tu_zi_yi_dong" />
+        <activity android:name=".bu_ju_qian_tao" />
+        <activity android:name=".bu_ju_guan_li" />
+        <activity android:name=".yidong_move" />
+        <activity android:name=".jiu_gong_ge" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".taiqiu" />
+        <activity android:name=".zhuye">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

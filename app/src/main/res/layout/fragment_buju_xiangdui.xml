@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical"
+    tools:context=".frgment.buju_xiangdui">
+
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="发现新的版本，确定要跟新吗"
+        android:textSize="30dp"
+        android:textColor="#DC143C"
+        />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="30dp"
+        android:layout_alignRight="@+id/one"
+        android:layout_below="@+id/one"
+        android:textColor="#9370DB"
+
+        />
+
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不"
+        android:textSize="30dp"
+        android:textColor="#9370DB"
+        android:layout_toLeftOf="@+id/two"
+        android:layout_below="@+id/one"
+        android:paddingRight="40dp"
+        />
+
+</RelativeLayout>

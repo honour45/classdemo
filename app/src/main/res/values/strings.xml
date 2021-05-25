@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">上课案例</string>
+    <string name="one">one_开心消消乐界面</string>
+    <string name="two">two_开始游戏（alert）</string>
+    <string name="three">three_九宫格（grideviie）</string>
+    <string name="four">four_布局管理</string>
+    <string name="five">five_布局嵌套</string>
+    <string name="six">six_兔子移动</string>
+    <string name="seven">seven_注册登录</string>
+    <string name="eight">eight_各种控件</string>
+    <string name="nine">nine_各种控件2</string>
+    <string name="ten">ten_列表类1</string>
+    <string name="eleven">eleven_列表类2</string>
+    <string name="twelve">twelve_选项卡</string>
+    <string name="thirteen">thirteen_intent传参</string>
+    <string name="fourteen">fourteen_回参</string>
+    <string name="fifteen">fifteen_动态加载碎片</string>
+    <string name="sixteen">sixteen_activity设置布局</string>
+    <string name="aaa">sixteen_activity设置布局
+    asfasfas
+        asfg asf+"\n"
+        asf+"\n"
+        as+"\n"
+        fd+"\n"
+        as+"\n"
+        d+"\n"
+        sad+"\n"
+        as+"\n"
+        d+"\n"
+        sa+"\n"
+        d+"\n"
+        as+"\n"
+        d+"\n"
+        asd+"\n"
+        as+"\n"
+        d+"\n"
+        as+"\n"
+        d+"\n"
+        asd+"\n"
+        as+"\n"
+        d+"\n"
+        as+"\n"
+        da+"\n"
+        sd+"\n"
+        as+"\n"
+        d+"\n"
+        asd
+        a
+        d
+        ad
+
+
+
+
+
+
+
+
+
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frgment.buju_zhen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA70D6"
+        android:text="文本一"
+        android:gravity="center"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:background="#4169E1"
+        android:text="文本二"
+        android:gravity="center"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="#32CD32"
+        android:text="文本三"
+        android:gravity="center"
+        android:textSize="40dp"
+        />
+
+
+</FrameLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".button_dati">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单选题"
+            android:textSize="35sp" />
+
+        <RadioGroup
+            android:id="@+id/button_dati_rg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/button_dati_rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项一" />
+
+            <RadioButton
+                android:id="@+id/button_dati_rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项二" />
+
+            <RadioButton
+                android:id="@+id/button_dati_rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项三" />
+
+            <RadioButton
+                android:id="@+id/button_dati_rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项四" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_dati_bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:background="#000000" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多选题"
+            android:textSize="35sp" />
+        <RadioGroup
+            android:id="@+id/button_dati_rg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/button_dati_ck5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项一" />
+
+            <CheckBox
+                android:id="@+id/button_dati_ck6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项二" />
+
+            <CheckBox
+                android:id="@+id/button_dati_ck7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项三" />
+
+            <CheckBox
+                android:id="@+id/button_dati_ck8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项四" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/button_dati_bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简答题"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1+1+1=?"
+            android:textSize="25sp"
+            />
+        <EditText
+            android:id="@+id/button_dati_et1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/button_dati_bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

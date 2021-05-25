@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/list_demo2_im"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="72dp"
+        android:maxHeight="72dp"
+        android:src="@drawable/tou"
+        />
+    <TextView
+        android:id="@+id/list_demo2_tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="as阿萨德沙发啊a"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
